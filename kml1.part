@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Youth Hostels</name>
+		<description><![CDATA[All the Youth Hostels in the UK.<br />
+			Information from yha.org.uk and syha.org.uk<br />
+			Correct as of June 2013.]]></description>
+		<Style id="letter_y">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/Y.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>00ff00ff</color>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h1>$[name]</h1>$[description]]]></text>
+			</BalloonStyle>
+		</Style>
